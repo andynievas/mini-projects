@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h4{
+    text-align: center;
+    margin: 20px;
+}
+
+#control{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#control input{
+    margin: 10px;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main div{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .4s;
+}
+main div span{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#memorize1{
+    background-color: brown;
+}
+#memorize2{
+    background-color: lawngreen;
+}
+#memorize3{
+    background-color: blueviolet;
+}
+#memorize4{
+    background-color: lightseagreen;
+}
+
+div.oculto{
+    background-color: grey !important;
+}
